@@ -6,5 +6,6 @@ use serde::{Serialize, Deserialize};
 use serde_repr::{Deserialize_repr, Serialize_repr};
 
 schemafy::schemafy!(
+    root: Segment
     "xray-segmentdocument-schema-v1.0.0.json"
 );
